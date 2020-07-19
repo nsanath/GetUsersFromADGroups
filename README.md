@@ -16,12 +16,14 @@ groupwithrecursivegroups
  -group3
     -username4
     -username5
+    -username2
     -group3
       -username6
       -username7
       -group4
          -group5
            -username8
+           -username3
       -username9
          
  output:
