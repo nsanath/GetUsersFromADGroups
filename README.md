@@ -21,7 +21,8 @@ groupwithrecursivegroups
       -username7
       -group4
          -group5
-         -username8
+           -username8
+      -username9
          
  output:
- (username1,username2,username3,username4,username5,username6,username7,username8)
+ (username1,username2,username3,username4,username5,username6,username7,username8,username9)
