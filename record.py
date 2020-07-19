@@ -15,7 +15,7 @@ class record():
                 self.DC.append(i.split("=")[1])
 
 if __name__ == "__main__":
-    s="CN=username,OU=Users,OU=GWY,DC=ad,DC=CompanyName,DC=com"
+    s="CN=username,OU=Users,OU=<OrgName>,DC=ad,DC=CompanyName,DC=com"
     print(s)
     r=record(s)
     print(r.CN,r.OU,r.DC)
